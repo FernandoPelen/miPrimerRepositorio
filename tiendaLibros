@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class InfoLibro {
+    public static void main(String args[]){
+        System.out.println("Ingresa el nombre de un libro: ");
+        Scanner consola = new Scanner (System.in);
+        
+        var nomLibro = consola.nextLine();
+        System.out.println("El nomnre del Libro es: " + nomLibro);
+        
+        System.out.println("Ingresa el autor del libro: ");
+        var autorLibro = consola.nextLine();
+        System.out.println("El nombre del libro es: " + nomLibro + " del Autor " + autorLibro);
+        
+    }
+    
+}
